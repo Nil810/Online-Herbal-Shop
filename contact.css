@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(45deg,rgb(224, 166, 166),rgb(153, 207, 153),rgb(180, 180, 206));
+}
+.outer{
+    width:100%;
+    height:730px;
+}
+#contactus{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.container{
+    display:flex;
+}
+.card{
+    margin-top:50px;
+    margin-left: 10px;
+    height:400px;
+    width:600px;
+    border-radius:5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+    
+}
+#info{
+    margin-top:45px;
+}
+.nature{
+    z-index: -1;
+    position: relative;
+    height:460px;
+    width:590px;
+    filter: opacity(0.3);
+    top:-350px;
+    left:30px;
+    border:1px solid black;
+    border-radius: 10px;
+
+}
+.firstdiv{
+    display:flex;
+    padding-top: 60px;
+    margin-left: 80px;
+    color:rgb(12, 1, 1);
+
+}
+.general{
+    margin-left: 20px;
+}
+.call{
+    margin-left: 25px;
+}
+#enquiry,#office,#callus,#time{
+margin-bottom: 15px;
+}
+.seconddiv{
+    display:flex;
+    padding-top: 60px;
+    margin-left: 100px;
+    color:rgb(12, 1, 1);
+   
+}
+.timing{
+    margin-left: 80px;
+}
+form{
+    height:500px;
+    width:590px;
+    margin-left:100px;
+    margin-top:37px;
+}
+fieldset{
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:470px;
+    width:590px;
+}
+#fullname,#contact{
+  height:45px;
+  width:260px; 
+  border-radius: 6px; 
+  margin-top: 40px;
+}
+#email{
+    height:45px;
+    width:532px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#message{
+    border:2px solid black;
+    border-radius: 6px;
+    margin-top: 23px;
+    /* padding:17px; */
+}
+#submit{
+    height:30px;
+    width:90px;
+    border-radius: 8px;
+    justify-content: center;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(201, 54, 54);
+    /* margin-left:200px; */
+}
+#submit:hover{
+    background-color: rgb(224, 116, 116);
+}
+.connect-sec{
+    margin-top: 40px;
+    margin-right:50px;
+    text-align: center;
+    font-size: 30px;
+}
+.logo-section{
+    position: relative;
+    /* left:20px; */
+}
+.logo1{
+margin: 5px 10px;
+color:rgb(104, 104, 233);
+
+}
